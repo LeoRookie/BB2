@@ -55,9 +55,9 @@ namespace BouncyBall
             if (x <= 0 || x >= myCanvas.ActualWidth - Ball.ActualWidth)
             {
                 timer.IsEnabled = false;
-                //GameOver.Visibility = Visibility.Visible;
-                //Image1_png.Visibility = Visibility.Visible;
-                //myCanvas.Background = Brushes.Red;
+                GameOver.Visibility = Visibility.Visible;
+                Image1_png.Visibility = Visibility.Visible;
+                myCanvas.Background = Brushes.Red;
             }
 
             // Y Achse
