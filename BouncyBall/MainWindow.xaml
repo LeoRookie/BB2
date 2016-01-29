@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BouncyBall"
         mc:Ignorable="d"
-        Title="! Bouncy Ball !" Height="350" Width="623.039" MouseMove="Window_MouseMove">
+        Title="! Bouncy Ball !" Height="350" Width="623.09" MouseMove="Window_MouseMove">
 
     <Canvas Name="myCanvas" Background="Goldenrod">
         <Ellipse Width="20" Height="20" Fill="Red" Name="Ball" Canvas.Left="139" Canvas.Top="110"/>
